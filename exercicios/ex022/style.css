@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(245, 7, 7);
+
+}
+header{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding: auto;
+    
+}
+nav{
+    background-color: rgb(247, 247, 247);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 2px; 2px; 2px; white;
+   }
+   nav > a {
+    color: withe;
+   
+    text-decoration: none;
+    background-color: aqua;
+
+   }
+main{
+    background-color: antiquewhite;
+    padding:  50px;
+    border-radius: 150px;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    
+
+    }
+}
+div#bola{
+    height:100px;
+    width:100px;
+    margin:10px;
+    background-color: ;

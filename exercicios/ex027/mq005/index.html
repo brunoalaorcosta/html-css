@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+            <h1>Notícias da cidade</h1>
+        <i id="burguer"class="material-icons" onclick="clikMenu()">menu</i>   
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Economia</a></li>
+                <li><a href="#">Cultura</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Esportes</a></li>
+
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2> Tecnologia & Informação</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto distinctio nihil, rerum labore incidunt, esse voluptatibus ad iste ipsa officia, explicabo culpa laboriosam! Qui sint possimus ipsum distinctio exercitationem.</p>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic rerum et suscipit porro sint adipisci distinctio architecto nemo? Numquam libero maiores eveniet, odio eligendi eum quia ut ducimus cumque ea.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore pariatur eius ut, iure rerum tempora quaerat sequi adipisci dolor accusantium dolorem rem blanditiis nam nobis labore veritatis obcaecati amet corrupti!</p>
+        </article>
+
+    </main>
+    <script>
+            function mudouTamaho(){
+            if (window.innerWidth >=768) {
+                itens.style.display='block'
+            } else {
+                itens.style.display = 'none'
+            }
+            
+            }
+
+        function  clikMenu() {
+            if (itens.style.display =='block'){
+                itens.style.display='none'
+            } else{
+                itens.style.display='block'
+            }
+        }
+
+
+
+    </script>
+
+</body>
+</html>

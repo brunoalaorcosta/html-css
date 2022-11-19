@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        .num{
+            text-align: right;
+        }
+        tr{
+            text-align: center;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: lightblue;
+
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color:gray ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Estado</th>
+                    <th>População</th>
+                </tr>
+            </thead>    
+                <tbody>
+                    <tr>
+                        <td> São Paulo</td>
+                        <td class="num"> 45 919 049</td>
+                    </tr>
+                    <tr>
+                        <td> Minas gerais</td>
+                        <td class="num"> 21 168 791</td>
+                    </tr>
+                    <tr>
+                        <td> Rio de Janeiro</td>
+                        <td  class="num"> 17 264 943</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>  Total de habitantes</th>
+                        <td> <strong>210.147.125</strong></td>
+                    </tr>
+                </tfoot>
+            
+
+        </table>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi labore mollitia ipsum vero exercitationem voluptates est tempore dolorem nulla dolor, odio nisi id vitae necessitatibus reiciendis quisquam accusamus. Quaerat, doloremque?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem cupiditate voluptate labore fuga ipsum autem nisi qui vitae minima. Doloremque odio, unde voluptate fugiat aut in eaque illum natus voluptatem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum accusamus perferendis natus atque aliquam? Accusantium vel ipsam magni doloribus natus obcaecati exercitationem placeat, optio amet nobis, explicabo laborum non iure. </p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium esse cupiditate itaque, doloremque recusandae quia harum optio dolor quas ipsum officia velit vitae. Qui excepturi, magnam voluptas ad tenetur <deserunt class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus ducimus, commodi fuga iste vero nostrum animi molestiae sed rerum, inventore amet, qui architecto quaerat. Tempore, officiis architecto. Nesciunt, at.</deserunt></p>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sapiente vero doloribus eaque rerum, aut sunt incidunt necessitatibus, porro quas, ullam unde saepe corporis laudantium modi impedit est quaerat ducimus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veritatis fugit natus quasi nemo aliquid earum, deleniti illum corporis possimus doloribus esse consequuntur inventore, porro quis unde vitae aspernatur <odio class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam eum repudiandae, corporis nostrum a, enim nihil, minima quod veritatis qui aliquid inventore tempora praesentium animi consectetur. Natus fuga laborum doloremque!</odio>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laboriosam, iure pariatur qui iusto ipsa voluptatibus porro vitae incidunt consectetur accusantium aut, perspiciatis repudiandae dolorum deserunt quod minus rerum velit.</p>
+</p>
+</body>
+</html>
